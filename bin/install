@@ -46,7 +46,7 @@ get_binary_path_in_archive() {
 get_platform() {
 case "$OSTYPE" in
     linux*)
-        echo "x86_64-unknown-linux-gnu"
+        echo "x86_64-unknown-linux-musl"
     ;;
     darwin*)
         echo "x86_64-apple-darwin"
